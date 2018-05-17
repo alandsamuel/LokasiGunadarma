@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.fanidyacinthya.penulisanilmiah">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+         android:theme="@android:style/Theme.NoTitleBar"
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Daftar Lokasi Kampus Gunadarma"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".daftarkampus" />
+        <activity android:name=".menudepok" />
+        <activity android:name=".kampusd" />
+        <activity android:name=".infokampusd" />
+        <activity android:name=".kampuse" />
+        <activity android:name=".infokampuse" />
+        <activity android:name=".kampusg" />
+        <activity android:name=".infokampusg" />
+        <activity android:name=".kampusf1" />
+        <activity android:name=".infokampusf1" />
+        <activity android:name=".kampusf4" />
+        <activity android:name=".infokampusf4" />
+        <activity android:name=".kampusf5" />
+        <activity android:name=".infokampusf5" />
+        <activity android:name=".menukalimalang" />
+        <activity android:name=".kampusj1" />
+        <activity android:name=".kampush" />
+        <activity android:name=".infokampush" />
+        <activity android:name=".infokampusj1" />
+        <activity android:name=".kampusj2" />
+        <activity android:name=".infokampusj2" />
+        <activity android:name=".kampusj3" />
+        <activity android:name=".infokampusj3" />
+        <activity android:name=".kampusj4" />
+        <activity android:name=".infokampusj4" />
+        <activity android:name=".kampusj5" />
+        <activity android:name=".infokampusj5" />
+        <activity android:name=".menumasuk" />
+        <activity android:name=".kampuskarawaci" />
+        <activity android:name=".infokampuskarawaci" />
+        <activity android:name=".kampuscengkareng" />
+        <activity android:name=".infokampuscengkareng" />
+        <activity android:name=".kampuskenari" />
+        <activity android:name=".infokampuskenari" />
+        <activity android:name=".kampussalemba" />
+        <activity android:name=".infokampussalemba" />
+        <activity android:name=".kampussimatupang" />
+        <activity android:name=".infokampussimatupang" />
+        <activity android:name=".bantuan" />
+        <activity android:name=".tentang" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".maps"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".mapse"
+            android:label="@string/title_activity_mapse" />
+        <activity
+            android:name=".mapsg"
+            android:label="@string/title_activity_mapsg" />
+        <activity
+            android:name=".mapsh"
+            android:label="@string/title_activity_mapsh" />
+        <activity
+            android:name=".mapsf1"
+            android:label="@string/title_activity_mapsf1" />
+        <activity
+            android:name=".mapsf4"
+            android:label="@string/title_activity_mapsf4" />
+        <activity
+            android:name=".mapsf5"
+            android:label="@string/title_activity_mapsf5" />
+        <activity
+            android:name=".mapsj1"
+            android:label="@string/title_activity_mapsj1" />
+        <activity
+            android:name=".mapsj2"
+            android:label="@string/title_activity_mapsj2" />
+        <activity
+            android:name=".mapsj3"
+            android:label="@string/title_activity_mapsj3" />
+        <activity
+            android:name=".mapsj4"
+            android:label="@string/title_activity_mapsj4" />
+        <activity
+            android:name=".mapsj5"
+            android:label="@string/title_activity_mapsj5" />
+        <activity
+            android:name=".mapssalemba"
+            android:label="@string/title_activity_mapssalemba" />
+        <activity
+            android:name=".mapskarawaci"
+            android:label="@string/title_activity_mapskarawaci" />
+        <activity
+            android:name=".mapscengkareng"
+            android:label="@string/title_activity_mapscengkareng" />
+        <activity
+            android:name=".mapskenari"
+            android:label="@string/title_activity_mapskenari" />
+        <activity
+            android:name=".mapssimatupang"
+            android:label="Map"/>
+    </application>
+
+</manifest>

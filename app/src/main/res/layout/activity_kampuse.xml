@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+android:background="@drawable/backgroundputih"
+tools:context="net.fanidyacinthya.penulisanilmiah.kampuse">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logoe"
+        android:layout_marginBottom="294dp"
+        android:id="@+id/imageView49"
+        android:layout_above="@+id/imageView52"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/kampus_e1"
+        android:layout_alignTop="@+id/imageView49"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:id="@+id/imageView50" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:src="@drawable/iconinformasi"
+        android:id="@+id/imageView51"
+        android:layout_below="@+id/imageView50"
+        android:layout_centerHorizontal="true"
+        android:onClick="informasi" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@drawable/iconlokasi"
+        android:id="@+id/imageView52"
+        android:onClick="lokasi"
+        android:layout_above="@+id/imageView53"
+        android:layout_alignLeft="@+id/imageView51"
+        android:layout_alignStart="@+id/imageView51"
+        android:layout_alignRight="@+id/imageView51"
+        android:layout_alignEnd="@+id/imageView51" />
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logokembali"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView53"
+        android:layout_alignParentBottom="true"
+        android:onClick="kembali" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logomenuutama"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView52"
+        android:onClick="menuutama" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundputih"
+    tools:context="net.fanidyacinthya.penulisanilmiah.kampuskenari">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logokampusa"
+        android:layout_marginBottom="442dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView104" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:src="@drawable/kampuskenari1"
+        android:layout_alignTop="@+id/imageView104"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/imageView105" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:src="@drawable/iconinformasi"
+        android:layout_below="@+id/imageView105"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView106"
+        android:onClick="informasi" />
+
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:src="@drawable/iconlokasi"
+        android:layout_below="@+id/imageView106"
+        android:layout_alignLeft="@+id/imageView106"
+        android:layout_alignStart="@+id/imageView106"
+        android:onClick="lokasi" />
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logokembali"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="kembali" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logomenuutama"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="menuutama" />
+
+
+
+
+</RelativeLayout>

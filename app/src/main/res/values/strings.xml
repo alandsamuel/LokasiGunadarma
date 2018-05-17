@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="daftar_kampus">Daftar Kampus</string>
+    <string name="tentang">Tentang</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="menu_utama">Menu Utama</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapse">Map</string>
+    <string name="title_activity_mapsg">Map</string>
+    <string name="title_activity_mapsh">Map</string>
+    <string name="title_activity_mapsf1">Map</string>
+    <string name="title_activity_mapsf4">Map</string>
+    <string name="title_activity_mapsf5">Map</string>
+    <string name="title_activity_mapsj1">Map</string>
+    <string name="title_activity_mapsj2">Map</string>
+    <string name="title_activity_mapsj3">Map</string>
+    <string name="title_activity_mapsj4">Map</string>
+    <string name="title_activity_mapsj5">Map</string>
+    <string name="title_activity_mapssalemba">Map</string>
+    <string name="title_activity_mapskarawaci">Map</string>
+    <string name="title_activity_mapscengkareng">Map</string>
+    <string name="title_activity_mapskenari">Map</string>
+    <string name="title_activity_mapssimatupang">Map</string>
+</resources>
